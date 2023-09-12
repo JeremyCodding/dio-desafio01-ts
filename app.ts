@@ -1,3 +1,4 @@
+import { BiggerDepositAccount } from './class/BiggerDepoistAccount'
 import { CompanyAccount } from './class/CompanyAccount'
 import { PeopleAccount } from './class/PeopleAccount'
 
@@ -8,3 +9,5 @@ const companyAccount: CompanyAccount = new CompanyAccount('DIO', 20)
 companyAccount.deposit(20)
 // console.log(companyAccount)
 companyAccount.getLoan(200)
+const newAccount: BiggerDepositAccount = new BiggerDepositAccount('Jeremy', 3)
+newAccount.betterDeposit(10)
